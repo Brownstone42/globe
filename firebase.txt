@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyA-59Hd3cwKU-IArkorrybzk-bmpCNqAJc",
+  authDomain: "ideal-globe-website.firebaseapp.com",
+  projectId: "ideal-globe-website",
+  storageBucket: "ideal-globe-website.firebasestorage.app",
+  messagingSenderId: "1003894705965",
+  appId: "1:1003894705965:web:b08d4eadec663f9ff7cda4"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
