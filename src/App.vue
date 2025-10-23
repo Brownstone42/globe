@@ -3,26 +3,25 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@font-face {
+    font-family: 'SukhumvitSet';
+    src: url('/fonts/sukhumvit-set/SukhumvitSet-Text.ttf') format('truetype');
+	font-weight: 400;
+    font-style: normal;
+}
 
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+	font-family: 'SukhumvitSet', sans-serif;
+	font-weight: 400;
 }
 
 body {
-  margin: 0;
-  font-family: 'dinpro-regular', sans-serif;
-}
-
-@font-face {
-  font-family: 'dinpro-regular';
-  src: url('../src/fonts/d_din_pro/otf/D-DIN-PRO-400-Regular.otf') format('opentype');
-}
-.dinpro-regular-font {
-  font-family: 'dinpro-regular', sans-serif;
+	font-family: 'SukhumvitSet', sans-serif;
+	font-weight: 400;
+	margin: 0;
 }
 </style>

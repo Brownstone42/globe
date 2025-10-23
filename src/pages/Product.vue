@@ -70,9 +70,11 @@ export default {
 <style scoped>
 div.page {
     flex-direction: column;
-    height: calc(100vh - 75px);
+    height: calc(100vh - 130px);
     background-color: lightgray;
     overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 figure {
     cursor: pointer;
